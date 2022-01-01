@@ -1,4 +1,4 @@
-package com.bl.firstname;
+package com.bl.parameterizedtesing;
 
 import static org.junit.Assert.assertEquals;
 

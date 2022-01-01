@@ -1,5 +1,5 @@
 
-package com.bl.firstname;
+package com.bl.parameterizedtesing;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
