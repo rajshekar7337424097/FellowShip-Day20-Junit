@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PassWordRule1 {
+public class PasswordRule1 {
 	
 	public static boolean passwordRule1(String inputStr) {
-		String passwordPattern = "^[A-Za-z]{8}$";
+		String passwordPattern = "^[a-z]{8}$";
 		Pattern regex = Pattern.compile(passwordPattern);
 		Matcher passwordMatcher = regex.matcher(inputStr);
 		if(passwordMatcher.matches()) {
@@ -27,5 +27,4 @@ public class PassWordRule1 {
 		sc.close();
 		passwordRule1(inputStr);
 	}
-
 }
