@@ -11,7 +11,7 @@ public class ContactNumber {
 		Pattern regex = Pattern.compile(contactNumberPattern);
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Phone Number :");
+		System.out.println("Enter Phone Number:");
 		String inputStr = sc.next();
 		
 		Matcher contactNumberMatcher = regex.matcher(inputStr);
